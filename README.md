@@ -24,25 +24,30 @@ I did struggle to follow the MVC architecture during this project, however I do 
 Implementation of the required functions: 
 P1. View the basic information of all projects 	projects.php
 -This page will display the basic details of all projects in the database
+
 P2. Click one project in the list to view the project details 	projectDetails.php	
 -This will allow for a more in-depth view of specific projects, with extra details like user email and ID 
+
 P3. Search all projects using title and starting date 	Search.php		
 -User’s can search for projects, wildcards have been used so the exact title doesn’t need to be typed, as well as lowercase manipulation
+
 P4. Register to become a registered user	login.php		
 -Users can register and be added to the database with a hashed password
+
 R1. Log in the system 	Login.php		
 -If registered, users can log in with their correct user and password details
+
 R2. Add your project	create.php		
 -Registered users can add projects to the database
+
 R3. Update your project	projectDetails.php		
 -Registered users can edit projects
+
 R4. Logout the system logout.php		
 -Registered users can logout
  
 Implemented security features
 Features 
-	Main Source File(s) 
-	Notes 
 
 Session Management	-login.php and logout.php-	
 Session management is used in almost all files to provide privileges, to track session status, sessions are created and ended through the two stated files.
