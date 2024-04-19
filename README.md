@@ -53,7 +53,7 @@ Session Management	-login.php and logout.php-
 Session management is used in almost all files to provide privileges, to track session status, sessions are created and ended through the two stated files.
 
 Authentication -login.php-	
-A users credentials are validated with entries in the ‘users’ database, if a user enters the correct details, access is granted, if incorrect then the user is alerted
+A users credentials are validated with entries in the ‘users’ database, if a user enters the correct details, access is granted, if incorrect then the user is alerted, as well as this cross site request forgery has been implemented 
 
 Form Validation	-login.php create.php search.php-	
 Used for input fields to only allow valid data
