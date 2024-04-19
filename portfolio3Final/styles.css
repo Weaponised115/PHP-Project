@@ -1,0 +1,159 @@
+body{
+    background-color: #f3bc77;
+ display: flex;
+  /* 'wrap' lets us control what happens when the page overflows in to the cointainer, 
+  instead of being cut off by the screen size */
+  flex-wrap: wrap;
+  /* 'justify-content' aligns flex items along the axis */
+  /* 'center' makes content in center of main axis*/
+  justify-content: center;
+  /* Same thing but with normal cross axis */
+  align-items: center;
+  /* The direction of items in the flex are row by default */
+  flex-direction: column; 
+  /* Changes the font */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* The margin allows for a specified space around the elements, outisde of borders (if any) */
+  /* auto choses that size for me */
+  margin:auto;
+  /* Similar to flex-wrap, but controls the elements contents */
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#createButt{
+  color: black;
+  text-decoration: underline;
+}
+
+#searchButt{
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.jersey-20-regular {
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+
+.navbar{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #a55233;
+    width: 100%;
+
+  }
+
+  .navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .navbar li{
+    text-align: center;
+    float: left;
+    margin: 2.5vh;
+    margin-right: 3vh;
+    padding: 0 2vh;
+    cursor: pointer;
+  }
+
+  #forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+  
+  #login {
+    background-color: #a55233;
+    text-align: center;
+    margin: 10px;
+    padding: 80px 60px;
+    border: 2px solid black;
+    border-radius: 3px;
+  }
+
+  #register{
+    background-color: #a55233;
+    text-align: center;
+    margin: 10px;
+    padding: 65px;
+    border: 2px solid black;
+    border-radius: 3px;
+  }
+
+  #login-form{
+    margin-top: 15px;
+  }
+
+  #register-form{
+    margin-top: 15px;
+  }
+
+  #projects{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      background-color: #a55233;
+      text-align: center;
+      margin: auto;
+      padding: 80px 60px;
+      border: 2px solid black;
+      border-radius: 3px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .current{
+    font-size: 25px;
+  }
+
+  input{
+    margin: 5px;
+  }
+
+  .projectTitles{
+    text-decoration: underline;
+  }
+
+  button{
+    background-color: #a55233;
+    border: solid 2px black;
+    border-radius: 3px;
+  }
+
+  button:hover{
+    background-color: #402a23;
+    cursor: pointer;
+  }
+
+  .homeButt{
+    background-color: #f3bc77;
+    border: solid 2px black;
+    border-radius: 3px;
+  }
+
