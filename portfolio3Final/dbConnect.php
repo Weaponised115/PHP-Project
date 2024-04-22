@@ -2,9 +2,9 @@
 
 // Creating variables with the correct connection details
 $db_host = "localhost";
-$db_name = "aproject";
-$username = "root";
-$password = "";
+$db_name = "u_230411191_aproject";
+$username = "u-230411191";
+$password = "Y6iqGkgYDMXWyFT";
 
 // 'try' will attempt 
 try{
